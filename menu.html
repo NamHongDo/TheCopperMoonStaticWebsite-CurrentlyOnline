@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+    <link href='//fonts.googleapis.com/css?family=Hind' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Philosopher' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-target="#nav" data-toggle="collapse"aria-expanded="false">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+        </div>
+        <div class="navbar-collapse collapse"  id="nav">
+              <ul class="nav navbar-nav navbar-center">
+                <li><a href="index.html">HOME</a></li>
+                <li class="active"><a href="menu.html">MENU</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li id='selected'><img src="image/CopperMoon.png" style="width:100px;height:100px;"> <li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+        </div>
+    </nav>
+
+  <div class=menuHeader>
+    <div class=menuNav>
+      <nav id='menu_bar' class="navbar navbar-inverse" role="navigation">
+        <div  class="container-fluid" id="myNavbar2">
+          <ul class="nav navbar-nav">
+            <li><a href="#"><button type="button" class="btn btn-warning" id="btn1" data-target="coffee">COFFEE</button></a></li>
+            <li><a href="#"><button type="button" class="btn btn-warning" id="btn2" data-target="smoothie">SMOOTHIE</button></a></li>
+            <li><a href="#"><button type="button" class="btn btn-warning" id="btn3" data-target="tea">TEA</button></a></li>
+            <li><a href="#"><button type="button" class="btn btn-warning" id="btn4" data-target="ic">ICE CREAM</button></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+    <div id="content" class="menuMaster">
+      <div id="dummy">
+      </div>
+    </div>
+
+    <div id="coffee"  style="display: none;">
+      <div id="firstrowContainer">
+        <div class="row">
+          <div class="col-lg-4 col-xl-4">
+            <div id="coffee1">
+                <div class="submenuTitle">
+                    LATTE
+                </div>
+                <div class="submenuDescription">
+                    Shot of espresso and velvety steamed milk
+                </div>
+
+                <div class="submenuPrice">
+                    2.75 &nbsp; | &nbsp; 3.50 &nbsp; | &nbsp; 3.95
+                </div>
+            </div>
+          </div>
+        <div class="col-lg-4 col-xl-4">
+            <div id="coffee2">
+                <div class="submenuTitle">
+                    MOCHA
+                </div>
+                <div class="submenuDescription">
+                    Espresso semi sweet dark chocolate steamed milk and Dutch processed cocoa
+                </div>
+                <div class="submenuPrice">
+                    3.25 &nbsp; | &nbsp; 3.95 &nbsp; | &nbsp; 4.35
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-xl-4">
+            <div id="coffee3">
+                <div class="submenuTitle">
+                    AMERICANO
+                </div>
+                <div class="submenuDescription">
+                   Hot water espresso, a bolder version of dripped coffee
+                </div>
+                <div class="submenuPrice">
+                    1.75 &nbsp; | &nbsp; 2.25 &nbsp; | &nbsp; 2.65
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="secondrowContainer">
+        <div class="row">
+            <div class="col-lg-4 col-xl-4">
+                <div id="coffee4">
+                    <div class="submenuTitle">
+                        RED EYE
+                    </div>
+                    <div class="submenuDescription">
+                        American drip with strong shot of espresso on top
+                    </div>
+                    <div class="submenuPrice">
+                        2.15 &nbsp; | &nbsp; 2.50 &nbsp; | &nbsp; 2.75
+                    </div>
+                </div>
+             </div>
+            <div class="col-lg-4 col-xl-4">
+                <div id="coffee5">
+                    <div class="submenuTitle">
+                        MACHIATO
+                    </div>
+                    <div class="submenuDescription">
+                       Espresso generous dollop of no foam, simple and elegant
+                    </div>
+                    <div class="submenuPrice">
+                        2.00 &nbsp; | &nbsp; 2.50 &nbsp; | &nbsp; 3.00
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xl-4">
+                <div id="coffee6">
+                    <div class="submenuTitle">
+                        FRAPPE
+                    </div>
+                    <div class="submenuDescription">
+                       Coffee granite infused with cream and light sugar
+                    </div>
+                    <div class="submenuPrice">
+                        2.25 &nbsp; | &nbsp; 2.50 &nbsp; | &nbsp; 2.75
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="smoothie" style="display: none;">
+      <div id="smoothieHeader">
+        Mix and Match your favorite fresh fruits for the Ultimate Smoothie!!
+      </div>
+      <div id="item1">
+        <div class="submenuTitle">
+          STRAWBERRY
+        </div>
+        <div class="submenuDescription">
+          <img src="image/smoothie/strawberry.jpg">
+        </div>
+      </div>
+      <div id="item2">
+        <div class="submenuTitle">
+          KIWI
+        </div>
+        <div class="submenuDescription">
+            <img src="image/smoothie/kiwi.jpg">
+        </div>
+      </div>
+      <div id="item3">
+        <div class="submenuTitle">
+          BLACKBERRY
+        </div>
+        <div class="submenuDescription">
+          <img src="image/smoothie/blackberry.jpg">
+        </div>
+      </div>
+      <div id="item4">
+        <div class="submenuTitle">
+          PINEAPPLE
+        </div>
+        <div class="submenuDescription">
+          <img src="image/smoothie/pineapple.jpg">
+        </div>
+      </div>
+      <div id="item5">
+        <div class="submenuTitle">
+          BANANA
+        </div>
+        <div class="submenuDescription">
+            <img src="image/smoothie/banana.jpg">
+        </div>
+      </div>
+      <div id="item6">
+        <div class="submenuTitle">
+          APPLE
+        </div>
+        <div class="submenuDescription">
+          <img src="image/smoothie/apple.jpg">
+        </div>
+      </div>
+    </div>
+
+    <div id="tea" style="display: none;">
+      <div id="item1">
+        <div class="submenuTitle">
+          BLACK TEA
+        </div>
+        <div class="submenuDescription">
+            <img src="image/tea/blacktea.jpg">
+        </div>
+      </div>
+      <div id="item2">
+        <div class="submenuTitle">
+          CHAI TEA
+        </div>
+        <div class="submenuDescription">
+            <img src="image/tea/chaitea.jpg">
+        </div>
+      </div>
+      <div id="item3">
+        <div class="submenuTitle">
+            GREEN TEA
+        </div>
+        <div class="submenuDescription">
+            <img src="image/tea/greentea.jpg">
+        </div>
+      </div>
+    </div>
+
+    <div id="ic" style="display: none;">
+      <div id="item1">
+        <div class="submenuTitle">
+            ICE CREAM
+        </div>
+        <div class="submenuDescription">
+            <img src="image/icecream/icecream.jpg">
+        </div>
+      </div>
+      <div id="item2">
+        <div class="submenuTitle">
+           MILK SHAKE
+        </div>
+        <div class="submenuDescription">
+            <img src="image/icecream/milkshake.jpg">
+        </div>
+      </div>
+      <div id="item3">
+        <div class="submenuTitle">
+           AFFOGATO
+        </div>
+        <div class="submenuDescription">
+            <img src="image/icecream/affogato.jpg">
+        </div>
+      </div>
+    </div>
+
+  <div id="footercontainer">
+       <div class="row">
+           <div class="col-xs-12 col-sm-12 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3 col-xl-3 col-xl-offset-3 ">
+               <div class="followUs">
+                   <div class="followUsHeader">
+                       CONNECT WITH US
+                   </div>
+                   <div class="followUsText">
+                       Connect with us on social media to stay up-to-date with the latest from The Copper Moon
+                   </div>
+
+                   <div class="socialbtncontainer">
+                       <br>
+                       <a href="https://twitter.com/CopperMoonClev"
+                          class="btncustom btn btn-social-icon btn-twitter">
+                           <span class="fa fa-twitter fa-2x"></span>
+                       </a>
+
+                       <a href="https://www.facebook.com/thecoppermoon/"
+                          class="btncustom btn btn-social-icon btn-facebook ">
+                           <span class="fa fa-facebook fa-2x"></span>
+                       </a>
+
+                       <a href="https://www.instagram.com/clevelandcoppermoon/"
+                          class="btncustom btn btn-social-icon btn-instagram">
+                           <span class="fa fa-instagram fa-2x"></span>
+                       </a>
+
+                       <a href="https://www.flickr.com/photos/151381145@N08/"
+                          class="btncustom btn btn-social-icon btn-flickr">
+                           <span class="fa fa-flickr fa-2x"></span>
+                       </a>
+                   </div>
+               </div>
+           </div>
+
+
+           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 ">
+               <div class="contactUs">
+                   <div class="contactUsHeader">
+                       CONTACT US
+                   </div>
+                   <div class="contactUsText">
+                       1127 Euclid Ave,<br>Cleveland, OH 44115<br><br>Phone: (216) 296-9281
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+
+    <script>
+    let stateCheck = setInterval(() => {
+      if (document.readyState === 'complete') {
+        clearInterval(stateCheck);
+        // document ready
+        document.getElementById("btn1").click();
+      }
+    }, 100);
+
+    $('.btn').click(function() {
+      var LDiv = $('.menuMaster').children().first();
+      $(LDiv).empty();
+      var target = '#'+ $(this).data('target');
+      $(target).clone().appendTo($(LDiv));
+      $(target).show();
+      console.log("PRINTING : " +target);
+    });
+    </script>
+  </body>
+</html>

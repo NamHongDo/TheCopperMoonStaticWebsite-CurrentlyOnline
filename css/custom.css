@@ -1,0 +1,981 @@
+body {
+    background-color: #222222;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar.navbar-default {
+    border-color: #222222;
+    height: 115px;
+    background: rgba(0,0,0,0.8) !important;
+    opacity: 0.85;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    font-family: 'Philosopher';
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 80px;
+
+}
+
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        text-shadow: 20px 8px 30px 5px #bc462a;
+        color: #f27752;
+    }
+
+    .navbar.navbar-default .navbar-nav > .active > a,
+    .navbar.navbar-default .navbar-nav > .active > a:hover,
+    .navbar.navbar-default .navbar-nav > .active > a:focus {
+        -webkit-box-shadow: 0px 0px 30px 10px #bc462a !important;
+        background-color: #f27752 !important;
+        margin-top: 15px;
+        margin-left: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+
+.navbar-default .navbar-toggle .icon-bar,
+.navbar-toggle:visited {
+    background-color: #f27752 !important;
+}
+
+     .navbar-toggle:hover, .navbar-toggle:focus {
+        -webkit-box-shadow: 0px 0px 20px 10px #bc462a;
+        background-color: #ffffff;
+    }
+
+@media (max-width: 760px) {
+    .navbar.navbar-default {
+        padding: 0px 0px;
+        opacity: 1;
+        height:110px;
+    }
+
+    #nav {
+        background-color: #070707;
+    }
+
+    #navImg {
+        display: none;
+    }
+
+    #nav > ul > li > a {
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .navbar.navbar-default .navbar-nav > .active > a,
+    .navbar.navbar-default .navbar-nav > .active > a:hover,
+    .navbar.navbar-default .navbar-nav > .active > a:focus {
+        -webkit-box-shadow: 0px 0px 30px 10px #bc462a !important;
+        background-color: #f27752 !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        border-radius: 10px;
+        color: #ffffff;
+        margin-top: 2px;
+    }
+}
+
+@media (max-width: 380px) {
+    .navbar.navbar-default {
+        padding: 0px 0px;
+        opacity: 1;
+        height:90px;
+    }
+
+    #nav {
+        background-color: #070707;
+    }
+
+    #navImg {
+        display: none;
+    }
+
+    #nav > ul > li > a {
+        text-align: center;
+        line-height:20px;
+    }
+
+    .navbar.navbar-default .navbar-nav > .active > a,
+    .navbar.navbar-default .navbar-nav > .active > a:hover,
+    .navbar.navbar-default .navbar-nav > .active > a:focus {
+        -webkit-box-shadow: 0px 0px 30px 10px #bc462a !important;
+        background-color: #f27752 !important;
+        padding-top: 11px !important;
+        padding-bottom: 8px !important;
+        border-radius: 10px;
+        color: #ffffff;
+        margin-top:2px;
+    }
+}
+
+#footercontainer {
+    background-image: url("../image/footerImg.jpg");
+    width: 100%;
+    height: 100%;
+    margin-bottom:0px;
+}
+
+    #footercontainer > .row {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+.contactUs, .followUs {
+    height: 80%;
+    width: 100%;
+    margin-top: 10%;
+    margin-right: -50%;
+    padding-bottom:100px;
+}
+
+.followUsHeader {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Philosopher';
+    color: #f27752;
+    font-size: 150%;
+}
+
+.followUsText {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    font-family: 'Philosopher';
+    color: #ffffff;
+    font-size: 120%;
+}
+
+.socialbtncontainer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+    .socialbtncontainer .fa {
+        display: inline-block;
+        vertical-align: middle;
+    }
+.btn{
+  border:none;
+}
+ul.socialList {
+  padding-top:10px;
+  list-style-type: none;
+  display:inline-block;
+  padding-left: 0;
+}
+ul.socialList>li{
+  float:left;
+}
+
+
+.fa {
+    background-color: #f27752;
+    color:#ffffff;
+    border:#f27752;
+    text-align: center;
+}
+
+.fa:hover {
+  -webkit-box-shadow: 0px 0px 20px 10px #f27752;
+  background-color:#ffffff;
+  color: #f27752;
+}
+
+.socialList>li> a{
+    border-color:#f27752;
+}
+
+.socialList>li> a:hover {
+    -webkit-box-shadow: 0px 0px 30px 10px #bc462a !important;
+    border-color:#ffffff;
+}
+
+.contactUsHeader {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Philosopher';
+    color: #f27752;
+    font-size: 150%;
+}
+
+.contactUsText {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    font-family: 'Philosopher';
+    color: #ffffff;
+    font-size: 120%;
+}
+/*
+    ------> *** <------
+        HOME segment
+    ------> *** <------
+                        */
+
+#myCarousel {
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+@media(max-width:720px){
+    #myCarousel {
+        margin-top: 120px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+    }
+}
+.carousel-indicators li {
+    background-color: #f27752;
+    border-color: #f27752;
+    width: 13px;
+    height: 13px;
+}
+
+.carousel-indicators .active {
+    background-color: #d53e10;
+    border-color: #d53e10;
+    width: 19px;
+    height: 19px;
+}
+
+.textOverlay {
+    font-family: "Philosopher";
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    top: 3em;
+    color: #f27752;
+    z-index: 1;
+}
+@media (min-width: 1200px) {
+    #titleOverlay {
+        top: 250px;
+        width: 55%;
+        font-size: 65px;
+    }
+
+    #subOverlay {
+        color: white;
+        font-size: 50px;
+        top: 350px;
+        width: 55%;
+        color: #ededed;
+        text-align: right;
+        padding-right: 1em;
+    }
+}
+@media (max-width: 1200px) {
+    #titleOverlay {
+        top: 250px;
+        width: 55%;
+        font-size: 55px;
+    }
+
+    #subOverlay {
+        color: white;
+        font-size: 40px;
+        top: 350px;
+        width: 55%;
+        color: #ededed;
+        text-align: right;
+        padding-right: 1em;
+    }
+}
+
+@media (max-width: 1000px) {
+    #titleOverlay {
+        top: 250px;
+        width: 50%;
+        font-size: 35px;
+    }
+
+    #subOverlay {
+        color: white;
+        font-size: 25px;
+        top: 330px;
+        width: 50%;
+        color: #ededed;
+        text-align: right;
+        padding-right: 1em;
+    }
+}
+
+@media (max-width: 680px) {
+    #titleOverlay {
+        top: 260px;
+        width: 50%;
+        font-size: 22px;
+    }
+
+    #subOverlay {
+        color: white;
+        font-size: 18px;
+        top: 300px;
+        width: 50%;
+        color: #ededed;
+        text-align: right;
+        padding-right: 1em;
+    }
+}
+
+@media (max-width: 458px) {
+    #titleOverlay {
+        top: 60px;
+        width: 50%;
+        font-size: 15px;
+    }
+
+    #subOverlay {
+        color: white;
+        font-size: 12px;
+        top: 85px;
+        width: 50%;
+        color: #ededed;
+        text-align: right;
+        padding-right: 1em;
+    }
+}
+/*
+    ------> *** <------
+        MENU segment
+    ------> *** <------
+                        */
+.menuMaster{
+  padding: 0;
+  margin: 0;
+}
+
+.menuHeader{
+ margin-top:150px;
+ text-align: center;
+}
+.navbar-inverse {
+    border: none !important;
+}
+#myNavbar2{
+  border: none !important;
+}
+
+#btn1,#btn2,#btn3,#btn4{
+    padding: 20px;
+    border-radius:10px;
+}
+
+.row{
+  margin-right:0px;
+}
+
+#coffee1 {
+    height: 250px;
+    float: left;
+    margin: 35px 45px;
+}
+
+#coffee2 {
+    height: 250px;
+    float: left;
+    margin: 35px 45px;
+}
+
+#coffee3 {
+    height: 250px;
+    float: left;
+    margin: 35px 45px;
+}
+
+#coffee4 {
+    height: 250px;
+    float: left;
+    margin: 35px 45px;
+}
+
+#coffee5 {
+    height: 250px;
+    float: left;
+    margin: 35px 45px;
+}
+
+#coffee6 {
+    height: 250px;
+    float: left;
+    margin: 35px 45px;
+}
+
+.submenuTitle {
+    color: #f27752;
+    font-size: 200%;
+    font-weight: 700;
+    font-family: 'Philosopher';
+    margin: 10px auto;
+}
+
+.submenuDescription {
+    color: #ffffff;
+    height: auto;
+    font-size: 150%;
+    width: auto;
+    font-family: 'Philosopher';
+    margin: 10px auto;
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.submenuPrice {
+    color: #ffffff;
+    text-align: right;
+    font-family: 'Philosopher';
+    margin: 10px auto 20px;
+}
+
+#smoothie, #tea, #ic > div > .submenuTitle {
+    text-align: center;
+}
+
+#smoothieHeader {
+    color: #FFFFFF;
+    font-size: 280%;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Philosopher';
+    padding-bottom: 40px;
+}
+
+#smoothieContainer {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#smoothie4, #smoothie5, #smoothie6 {
+    padding-top: 40px;
+}
+
+#teaContainer {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#icContainer {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.btnContainer {
+    height: auto;
+    width: auto;
+    float: right;
+}
+
+.btn-warning {
+    background-color: #f27752;
+    border-color: #f27752;
+    font-family: 'Philosopher';
+    font-weight: 700;
+}
+
+    .btn-warning:hover,
+    .btn-warning:focus,
+    .btn-warning:active {
+        background-color: #ffffff;
+        border-color: #f27752;
+        color: #f27752;
+        -webkit-box-shadow: 0px 0px 20px 0px #bc462a;
+        border-color: #ffffff;
+        font-family: 'Philosopher';
+        font-weight: 700;
+    }
+
+        .btn-warning:active:hover,
+        .btn-warning.active:hover,
+        .open > .dropdown-toggle.btn-warning:hover,
+        .btn-warning:active:focus,
+        .btn-warning.active:focus,
+        .open > .dropdown-toggle.btn-warning:focus,
+        .btn-warning:active.focus,
+        .btn-warning.active.focus,
+        .open > .dropdown-toggle.btn-warning.focus {
+            background-color: #ffffff;
+            border-color: #f27752;
+            color: #f27752;
+            -webkit-box-shadow: 0px 0px 20px 0px #bc462a;
+            border-color: #ffffff;
+            font-family: 'Philosopher';
+            font-weight: 700;
+        }
+/*
+    ------> *** <------
+        ABOUT segment
+    ------> *** <------
+                        */
+.aboutMaster {
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding: 130px 50px 150px 50px;
+}
+.historyHeader {
+    font-family: 'Philosopher';
+    color: #f27752;
+    font-size: 400%;
+    padding-top: 50px;
+}
+
+.historyList {
+    font-family: 'Philosopher';
+    color: #ffffff;
+    font-size: 200%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.offerHeader {
+    font-family: 'Philosopher';
+    color: #f27752;
+    font-size: 400%;
+    padding-top: 50px;
+}
+
+.offerList {
+    font-family: 'Philosopher';
+    color: #ffffff;
+    font-size: 200%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.achieveHeader {
+    font-family: 'Philosopher';
+    color: #f27752;
+    font-size: 400%;
+    padding-top: 50px;
+}
+
+.achieveList {
+    font-family: 'Philosopher';
+    color: #ffffff;
+    font-size: 200%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+/*
+    ------> *** <------
+        GALERY segment
+    ------> *** <------
+                        */
+
+@media(min-width:1200px) {
+    .galleryMaster {
+        height: 100%;
+        width: 100%;
+        padding-top:200px;
+        padding-left:4%;
+        padding-bottom:50px;
+    }
+
+    .galimg {
+        padding-bottom: 30px;
+        padding-right:-20px;
+    }768
+
+}
+
+@media(max-width:1200px) {
+    .galleryMaster {
+        display: block;
+        width: 100%;
+        padding-top:150px;
+    }
+
+    .galimg {
+        padding-bottom: 30px;
+    }
+
+    #galleryContainer1,
+    #galleryContainer2,
+    #galleryContainer3,
+    #galleryContainer4 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width:780px) {
+    .galleryMaster {
+        display: block;
+        width: 100%;
+        padding-top:120px;
+    }
+
+    .galimg {
+        padding-bottom: 30px;
+    }
+
+    #galleryContainer1,
+    #galleryContainer2,
+    #galleryContainer3,
+    #galleryContainer4 {
+        width: 100%;
+        text-align:center;
+    }
+}
+
+@media(max-width:355px) {
+    .galleryMaster {
+        display: block;
+        width: 100%;
+        padding-top:100px;
+    }
+    .galimg {
+        padding-bottom: 30px;
+    }
+    #galleryContainer1,
+    #galleryContainer2,
+    #galleryContainer3,
+    #galleryContainer4 {
+        width: 320px;
+        text-align: center;
+    }
+}
+    /*
+    ------> *** <------
+        CONTACT segment
+    ------> *** <------
+                        */
+    .contactMaster {
+        padding-left: 100px;
+        height: 550px;
+        width: 1100px;
+        display: block;
+        margin: 200px auto 70px;
+    }
+
+    .copperMap {
+        height: auto;
+        width: auto;
+        float: left;
+        padding-top: 25px;
+    }
+
+    #googlemap {
+        height: 400px;
+        width: 600px;
+    }
+
+.mapText {
+    font-family: 'Philosopher';
+    color: #f27752;
+    font-size: 200%;
+    padding-bottom: 20px;
+    /*padding-left:0em;*/
+}
+
+.address {
+    height: 300px;
+    width: 300px;
+    float: right;
+    padding-top: 140px;
+}
+
+.addressHeader {
+    height: auto;
+    width: 100%;
+    font-family: 'Philosopher';
+    color: #f27752;
+    float: left;
+    font-size: 1.25em;
+}
+
+.addressInfo {
+    height: auto;
+    width: 100%;
+    font-family: 'Philosopher';
+    color: #ffffff;
+    float: left;
+    padding-top: 20px;
+    font-size: 1.25em;
+}
+
+.hours {
+    height: 200px;
+    width: 300px;
+    float: right;
+}
+
+.hoursHeader {
+    height: auto;
+    width: 100%;
+    font-family: 'Philosopher';
+    color: #f27752;
+    float: left;
+    font-size: 1.25em;
+}
+
+.hoursFirst {
+    height: auto;
+    width: 30%;
+    font-family: 'Philosopher';
+    color: #ffffff;
+    float: left;
+    padding-top: 20px;
+    font-size: 1.25em;
+}
+
+.hourSecond {
+    height: auto;
+    width: 70%;
+    font-family: 'Philosopher';
+    color: #ffffff;
+    float: right;
+    padding-top: 20px;
+    font-size: 1.25em;
+}
+
+    @media(max-width: 1200px) {
+        .contactMaster {
+            height: 950px;
+            display: block;
+            width: 700px;
+            margin: 200px auto 70px !important;
+            padding-left: 0px;
+        }
+
+        .copperMap {
+            width: 700px;
+            text-align: center;
+        }
+
+        .address {
+            text-align: center !important;
+            height: 150px !important;
+            width: 700px !important;
+            padding-top: 20px !important;
+        }
+
+        .addressHeader {
+            font-family: 'Philosopher';
+            color: #f27752;
+            font-size: 1.25em;
+        }
+
+        .addressInfo {
+            height: auto;
+            width: 100%;
+            font-family: 'Philosopher';
+            color: #ffffff;
+            float: left;
+            font-size: 1.25em;
+        }
+
+        .hours {
+            height: 200px;
+            width: 700px !important;
+            float: right;
+            text-align: center !important;
+        }
+
+        .hoursHeader {
+            height: auto;
+            width: 100%;
+            font-family: 'Philosopher';
+            color: #f27752;
+            float: left;
+            font-size: 1.25em;
+        }
+
+        .hoursFirst {
+            height: auto;
+            width: 50% !important;
+            font-family: 'Philosopher';
+            color: #ffffff;
+            float: left;
+            padding-top: 20px;
+            font-size: 1.25em;
+        }
+
+        .hourSecond {
+            height: auto;
+            width: 50% !important;
+            font-family: 'Philosopher';
+            color: #ffffff;
+            float: right;
+            padding-top: 20px;
+            font-size: 1.25em;
+        }
+    }
+
+    @media(max-width: 668px) {
+        .contactMaster {
+            height: 950px;
+            display: block;
+            width: 520px;
+            margin: 100px 0px 0px !important;
+            padding-left: 0px;
+        }
+
+        .copperMap {
+            width: 520px;
+            text-align: center;
+        }
+
+        .address {
+            text-align: center !important;
+            height: 150px !important;
+            width: 520px !important;
+            padding-top: 20px !important;
+        }
+
+        .addressHeader {
+            font-family: 'Philosopher';
+            color: #f27752;
+            font-size: 1.25em;
+        }
+
+        .addressInfo {
+            height: auto;
+            width: 100%;
+            font-family: 'Philosopher';
+            color: #ffffff;
+            float: left;
+            font-size: 1.25em;
+        }
+
+        .hours {
+            height: 200px;
+            width: 520px !important;
+            float: right;
+            text-align: center !important;
+        }
+
+        .hoursHeader {
+            height: auto;
+            width: 100%;
+            font-family: 'Philosopher';
+            color: #f27752;
+            float: none;
+            font-size: 1.25em;
+        }
+
+        .hoursFirst {
+            height: auto;
+            width: 50% !important;
+            font-family: 'Philosopher';
+            color: #ffffff;
+            float: left;
+            padding-top: 20px;
+            font-size: 1.25em;
+        }
+
+        .hourSecond {
+            height: auto;
+            width: 50% !important;
+            font-family: 'Philosopher';
+            color: #ffffff;
+            float: right;
+            padding-top: 20px;
+            font-size: 1.25em;
+        }
+    }
+
+    @media(max-width: 380px) {
+        .contactMaster {
+            height: 950px;
+            display: block;
+            width: 320px;
+            margin: 200px 0px 0px !important;
+            padding-left: 0px;
+        }
+
+        .copperMap {
+            width: 320px;
+            text-align: center;
+        }
+
+        #googlemap {
+            height: 300px;
+            width: 320px;
+        }
+
+        .address {
+            text-align: center !important;
+            height: 150px !important;
+            width: 320px !important;
+            padding-top: 20px !important;
+        }
+
+        .addressHeader {
+            font-family: 'Philosopher';
+            color: #f27752;
+            font-size: 1.25em;
+        }
+
+        .addressInfo {
+            height: auto;
+            width: 100%;
+            font-family: 'Philosopher';
+            color: #ffffff;
+            float: left;
+            font-size: 1.25em;
+        }
+
+        .hours {
+            height: 270px !important;
+            width: 320px !important;
+            float: right;
+            text-align: center !important;
+        }
+
+        .hoursHeader {
+            height: auto;
+            width: 100%;
+            font-family: 'Philosopher';
+            color: #f27752;
+            font-size: 1.25em;
+        }
+
+        .hoursFirst {
+            height: auto;
+            width: 48% !important;
+            font-family: 'Philosopher';
+            color: #ffffff;
+            padding-top: 20px;
+            font-size: 1.25em;
+            float: left;
+        }
+
+        .hourSecond {
+            height: auto;
+            width: 48% !important;
+            font-family: 'Philosopher';
+            color: #ffffff;
+            padding-top: 20px;
+            font-size: 1.25em;
+            float:right;
+        }
+    }
